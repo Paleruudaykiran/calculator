@@ -1,0 +1,42 @@
+
+body { 
+    display:grid; 
+    height:100vh;
+    place-items: center;
+}
+.display { 
+    background:blue; 
+    border:0.2px solid black;
+}
+input { 
+    display:block;
+    margin:0 auto;
+    border:none;
+    background-color:inherit;
+    color:white;
+}
+.input-field { 
+   min-width:100%; 
+   min-height:15px;
+}
+input:focus { 
+   outline: none;
+}
+.calculator { 
+    background-color:white;
+    box-shadow: 5px 5px  black;
+}
+.keys { 
+    margin : 0 auto;
+}
+button { 
+    background-color:hsl(17, 100%, 50%);
+    border:none;
+    font-size:20px;
+    width:100%; 
+    height:100%;
+    padding:0.4em;
+}
+button:hover { 
+    opacity:0.5;
+}
