@@ -1,5 +1,5 @@
 
-body { 
+/* body { 
     display:grid; 
     height:100vh;
     place-items: center;
@@ -39,4 +39,15 @@ button {
 }
 button:hover { 
     opacity:0.5;
+} */
+
+.input {
+    display: block;
+    background-color: inherit;
+    width:100%;
+    border:1px solid blue;
+    font-size: 1.5rem;
+}
+.header {
+    min-height:100vh;
 }
